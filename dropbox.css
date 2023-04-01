@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#Navbar {
+    display: flex;
+    position: fixed; 
+    top: 0;
+    width: 100vw;
+    height: 50px; 
+    background-color:#ffffff;
+
+
+}
+
+
+#Navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+#Navbar-left #dropbox-icon{
+    background-color: #0061fe;
+    width: 3rem;
+    height:100%;
+}
+#Navbar-right {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#button {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color:#0061fe ;
+    height: 2.5rem;
+    padding: 0.8rem;
+    color: #dce4e3;
+    flex-wrap: wrap;
+}
+
+
+/* ..............................DARK SIDE............................................................................... */
+
+#dark {
+  background-color: #1e1919;
+  color:aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#dark .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dark .section-1 > h1{
+    font-size: 3rem;
+    font-family: Sharp gr;
+    line-height: 3rem;
+    text-align: center;
+    width:40rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+#dark .section-1 > p {
+text-align: center;
+width: 40rem;
+margin-bottom: 2rem;
+font-size: 1rem;
+}
+
+#dark .section-1 > h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#blue-button {
+  
+    background-color:
+    #3984ff;
+    width: 12rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 4rem;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+
+
+}
+
+#blue-button .Arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+#dark .section-3{
+    display: flex;
+    text-align: left;
+    margin-bottom: 4rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+
+}
+
+
+#dark .section-3 > div {
+    width: 16rem;
+   
+
+}
+
+#dark .section-3 > div > p {
+    font-size: 3em;
+    
+
+}
+
+#dark .section-3 > div > h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+#dark .section-3 > div > h4 {
+
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+/* ......................................CREAM SIDE */
+
+#cream {
+    background-color: #f7f5f2;
+
+}
+
+#cream > h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+#cream-container {
+    padding-bottom: 4rem;
+}
+
+#cream-container .container-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    margin-bottom: 4rem;
+    
+
+}
+
+#cream-container .container-2{
+display: flex;
+justify-content: space-around;
+
+}
+
+.inner-container {
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.inner-container > img {
+    width: 3.5rem;
+
+}
+.inner-container h3{
+    text-decoration: underline;
+}
+
+.inner-container {
+    line-height: 1.5rem;
+    color: #1e1919;
+    font-weight: 400;
+}
+
+/* ...................section 4......................... */
+
+
+#section-4 {
+    background-color: #1e1919;
+    color: #f7f5f2;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#section-4 > h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+#section-4-flex{
+background-color: #2b2929;
+margin: 3rem 3rem;
+}
+
+#section-4-flex {
+    display: flex;
+}
+
+#section-4-flex > div > img {
+    width: 100%;
+}
+
+.span-arrow {
+    background-color: #0061fe;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3rem;
+}
+
+/* .......................SECTION 5 ................ */
+#section-5 {
+    background-color: red;
+    display: flex;
+    
+}
+
+#white {
+flex-grow: 1;
+width: 50%;
+}
+
+#white > div {
+    background-color: rgb(249, 249, 255);
+    padding: 2rem 0rem 2rem 0px;
+    border-bottom: 1px solid black;
+
+}
+#sky-blue {
+background-color: skyblue;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#sky-blue > img {
+    width: 80%;
+}
+
+/* --------------- section-6 ---------*/
+
+#section-6  img {
+    width: 15%;
+}
+
+
+#section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-6 .header{
+    text-align: center;
+    width: 70%;
+}
+
+#section-6-icon-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#section-6-icon-div > div {
+    width: 14rem;
+    margin: 2rem;
+}
+
+/* ..............section-7 */
+
+#section-7 {
+    background-color: #1e1919;
+    color:#f7f5f2;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#section-7 h1{ 
+    text-align: center;
+    width: 50%;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    padding: 2rem;
+
+}
+
+#section-7 p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 4rem;
+    text-decoration: underline;
+}
+
+#section-7-flex {
+    display: flex;
+}
+
+#section-7-flex > img {
+    width: 50%;
+}
+
+#section-7-flex > div {
+    width: 50%;
+    background-color: #9b0032;
+    padding: 1rem;
+}
